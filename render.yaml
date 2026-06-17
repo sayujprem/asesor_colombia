@@ -10,6 +10,6 @@ services:
       - key: CLAUDE_MODEL
         value: claude-sonnet-4-6
       - key: UVT_VIGENTE
-        value: "52669"
+        value: "52374"
       - key: SMLMV_VIGENTE
         value: "1750905"

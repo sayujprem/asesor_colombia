@@ -2,7 +2,7 @@
 Calculadoras tributarias colombianas — basadas en el Estatuto Tributario
 y Ley 2277 de 2022. Todas las cifras en pesos colombianos (COP).
 
-UVT 2024: $47.065 | UVT 2025: $49.799 | UVT 2026: ~$52.669 (estimado, verificar DIAN)
+UVT 2024: $47.065 | UVT 2025: $49.799 | UVT 2026: $52.374 (Decreto DIAN oficial)
 SMLMV 2026: $1.750.905
 """
 
@@ -14,7 +14,7 @@ from typing import Optional
 
 UVT_2024 = 47_065
 UVT_2025 = 49_799
-UVT_2026 = 52_669   # Estimado — confirmar decreto DIAN cierre 2025
+UVT_2026 = 52_374   # Decreto DIAN — valor oficial 2026
 UVT_VIGENTE = UVT_2026
 
 SMLMV_2026 = 1_750_905

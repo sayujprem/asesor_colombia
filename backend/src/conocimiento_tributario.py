@@ -15,7 +15,7 @@ SISTEMA_TRIBUTARIO_COLOMBIA = """
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 • UVT 2024: $47.065 COP
 • UVT 2025: $49.799 COP
-• UVT 2026: ~$52.669 COP (verificar decreto)
+• UVT 2026: $52.374 COP (Decreto DIAN — valor oficial)
 • SMLMV 2026: $1.750.905 COP
 • Cifra inembargable 2026: $43.772.625 (25 SMLMV — Art. 9 Ley 1066/2006)
 
@@ -84,7 +84,7 @@ ESTABLECIMIENTOS PERMANENTES (Art. 246 ET):
 • Tarifa: 20% sobre dividendos pagados a sucursales de sociedades extranjeras.
 
 ESTRATEGIA CLAVE — DIVIDENDOS:
-• Los primeros 1.090 UVT (~$57.4M en 2026) de dividendos no gravados NO pagan
+• Los primeros 1.090 UVT (~$57.1M en 2026) de dividendos no gravados NO pagan
   impuesto cedular (tramo del 0% de la tabla 241).
 • El descuento del 19% sobre el exceso mitiga la tributación adicional.
 • Planificación: diferir distribución de dividendos para controlar la base anual.
@@ -169,7 +169,7 @@ ALTA EFICIENCIA FISCAL:
 │ • Aporte = renta exenta → reduce base gravable INMEDIATAMENTE.                     │
 │ • Rendimientos NO tributan mientras permanezcan en el fondo (diferimiento).        │
 │ • Al retirar: tributan los rendimientos (no el capital aportado, ya exento).       │
-│ • Tope: 30% ingreso anual, máximo 3.800 UVT (~$200M/año en 2026).                 │
+│ • Tope: 30% ingreso anual, máximo 3.800 UVT (~$199M/año en 2026).                 │
 │ • Permanencia mínima: 10 años (o para pensión). Retiro anticipado pierde exención. │
 └────────────────────────────────────────────────────────────────────────────────────┘
 ┌────────────────────────────────────────────────────────────────────────────────────┐
