@@ -6,9 +6,14 @@ export default function Footer() {
     <footer className="px-8 md:px-20 py-10" style={{ background: "#FDFBF7", borderTop: "1px solid #E8E3D9" }}>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
 
-        <span className="text-[0.65rem] font-semibold tracking-[0.2em] uppercase" style={{ color: DARK }}>
-          Asesor Colombia
-        </span>
+        <div>
+          <span className="text-[0.65rem] font-semibold tracking-[0.2em] uppercase" style={{ color: DARK }}>
+            Asesor Colombia
+          </span>
+          <p className="text-[0.62rem] tracking-[0.08em] mt-1" style={{ color: "#B8B0A6" }}>
+            Creado por <span style={{ color: G, fontWeight: 600 }}>Sayuj</span>
+          </p>
+        </div>
 
         <p className="text-xs leading-relaxed max-w-md text-center" style={{ color: "#B8B0A6", letterSpacing: "0.02em" }}>
           Orientación informativa. No constituye asesoría jurídica, tributaria ni de inversión.
