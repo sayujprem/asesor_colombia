@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold:    #b8860b;
+  --cream:   #FDFBF7;
+  --dark:    #1C1711;
+  --muted:   #8A8075;
+  --borde:   #E8E3D9;
+  --card:    #F5F1EB;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--cream);
+  color: var(--dark);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: #b8860b55; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+.cursor-blink { animation: blink 1s step-end infinite; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 #4ade8060; }
+  50%       { opacity: 0.8; transform: scale(1.1); box-shadow: 0 0 0 6px #4ade8000; }
+}
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+@keyframes msg-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.msg-in { animation: msg-in 0.3s ease forwards; }
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #b8860b22 25%, #b8860b55 50%, #b8860b22 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
+
+/* Magnetic button */
+.btn-magnetic {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.btn-magnetic:hover { transform: scale(1.02); }
+.btn-fill {
+  position: absolute;
+  inset: 0;
+  background: #b8860b;
+  transform: translateY(101%);
+  transition: transform 0.38s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: inherit;
+}
+.btn-magnetic:hover .btn-fill { transform: translateY(0); }
+.btn-label { position: relative; z-index: 1; transition: color 0.38s; }
+.btn-magnetic:hover .btn-label { color: #ffffff !important; }
